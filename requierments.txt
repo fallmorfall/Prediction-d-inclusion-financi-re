@@ -1,2 +1,4 @@
 ydata_profiling
 pandas
+sklearn
+streamlit
