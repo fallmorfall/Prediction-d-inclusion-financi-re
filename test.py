@@ -6,10 +6,10 @@ df = pd.read_csv('Financial_inclusion_dataset.csv')
 df
 df.info()
 df.describe()
-from ydata_profiling import ProfileReport
+#from ydata_profiling import ProfileReport
 
-profile = ProfileReport(df, title="Profiling Report")
-profile
+#profile = ProfileReport(df, title="Profiling Report")
+#profile
 for column in df.columns:
     if df[column].dtype == 'object':
         df[column].fillna(df[column].mode()[0], inplace=True)
