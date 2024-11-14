@@ -1,4 +1,4 @@
-ydata_profiling
+pandas_profiling
 pandas
 sklearn
 streamlit
