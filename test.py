@@ -50,8 +50,8 @@ import streamlit as st
 
 st.title("Prédiction d'inclusion financière")
 
-feature1 = st.text_input("Entrez la première caractéristique")
-feature2 = st.text_input("Entrez la deuxième caractéristique")
+feature1 = st.text_input("Entrez la Localisation du clien(Urban, Rural)")
+feature2 = st.text_input("Entrez l'accés au téléphon(Yes, No)")
 
 if st.button('Prédire'):
     prediction = model.predict([[feature1, feature2]])
